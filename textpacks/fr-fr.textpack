@@ -1,7 +1,7 @@
 #@language fr-fr
 #@admin
 oui_player_provider_audio => Audio
-oui_player_audio => Audio player (oui_player_audio)
+oui_player_audio => Audio player
 oui_player_audio_prefs => Display the Audio player prefs
 oui_player_audio_autoplay => Audio
 oui_player_audio_controls => Afficher les commandes

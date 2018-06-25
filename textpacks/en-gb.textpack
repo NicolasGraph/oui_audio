@@ -1,7 +1,7 @@
 #Default language, en-us, en-gb
 #@admin
 oui_player_provider_audio => HTML audio
-oui_player_audio => HTML audio player (oui_player_audio)
+oui_player_audio => HTML audio player
 oui_player_audio_prefs => Display the HTML audio player prefs
 oui_player_audio_autoplay => automatic playing
 oui_player_audio_controls => Display controls
