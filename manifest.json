@@ -1,0 +1,10 @@
+{
+    "name"        : "oui_audio",
+    "description" : "HTML5 video and audio extension for oui_player v2+",
+    "version"     : "1.0.0-dev",
+    "type"        : 1,
+    "author"      : "Nicolas Morand",
+    "author_uri"  : "http://github.com/NicolasGraph",
+    "order"       : 4,
+    "flags"       : 3
+}
