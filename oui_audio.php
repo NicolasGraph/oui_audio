@@ -35,7 +35,7 @@ namespace Oui\Player {
 
     if (class_exists('Oui\Player\Provider')) {
 
-        class Audio
+        class Audio extends Provider
         {
             protected static $patterns = array(
                 'filename' => array(
