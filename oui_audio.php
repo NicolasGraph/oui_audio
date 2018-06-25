@@ -55,6 +55,8 @@ namespace Oui\Player {
                 'aac'  => 'audio/aac',
                 'flac' => 'audio/flac',
             );
+            protected static $src = '';
+            protected static $glue = ' ';
             protected static $dims = array(
                 'width'     => array(
                     'default' => '',
