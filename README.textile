@@ -23,7 +23,7 @@ h4. From the admin interface
 # Confirm the plugin install by clicking the _Install_ button on the plugin preview page.
 # Enable the plugin and click the _Options_ link (or visit the _Preferences_ tab) to set the provider preferences.
 
-h4. Via Composer
+h4. Via Composer (not available yet)
 
 After "installing Composer":https://getcomposer.org/doc/00-intro.md…
 
@@ -32,7 +32,7 @@ After "installing Composer":https://getcomposer.org/doc/00-intro.md…
 # If it's not already done, lock your version of Txp:
 @$ composer require textpattern/lock:4.6.2@, where @4.6.2@ is the Txp version in use.
 # Install oui_audio:
-@$ composer require oui/oui_audio@
+@$ composer require nicolasgraph/oui_audio@
 
 h3. Update
 
@@ -40,9 +40,9 @@ h4. From the admin interface
 
 # Follow the installation instruction above.
 
-h4. Via Composer
+h4. Via Composer (not available yet)
 
-bc. $ composer update oui/oui_audio
+bc. $ composer update nicolasgraph/oui_audio
 
 h3. Uninstall
 
@@ -52,9 +52,9 @@ h4. From the admin interface
 # open the select list at the bottom of the plugins table and choose _Delete_.
 # confirm the plugin deletion.
 
-h4. Via Composer
+h4. Via Composer (not available yet)
 
-bc. $ composer remove oui/oui_audio
+bc. $ composer remove nicolasgraph/oui_audio
 
 h2. Tags and parameters
 
@@ -167,7 +167,7 @@ This is free software, and you are welcome to redistribute it "under certain con
 
 h3. Changelog
 
-* *oui_audio v1.0.0-alpha* (2018-06-25)
+* *oui_audio v1.0.0-BETA1* (2018-06-26)
 ** Added: MIME types managements;
 ** added: @.aac@ and @.flac@ support.
 * *oui_player v1.3.0* (2017-05-24)
