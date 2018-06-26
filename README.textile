@@ -169,5 +169,6 @@ h3. Changelog
 
 * *oui_audio v1.0.0-BETA1* (2018-06-26)
 ** Added: MIME types managements;
+** added: player width management;
 ** added: @.aac@ and @.flac@ support.
 * *oui_player v1.3.0* (2017-05-24)
