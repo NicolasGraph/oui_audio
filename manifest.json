@@ -1,7 +1,7 @@
 {
     "name"        : "oui_audio",
     "description" : "Create HTML5 audio players through oui_player v2+",
-    "version"     : "1.0.0-DEV",
+    "version"     : "1.0.0-BETA2",
     "type"        : 1,
     "author"      : "Nicolas Morand",
     "author_uri"  : "http://github.com/NicolasGraph",
