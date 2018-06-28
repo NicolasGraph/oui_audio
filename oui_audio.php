@@ -185,9 +185,12 @@ namespace Oui\Player {
 
                     extract($dims);
 
-                    is_string($width) ?: $width .= 'px';
+                    $style = '';
 
-                    $style = !empty($width) ? ' style="width:' . $width . '"' : '';
+                    if (!empty($width)) {
+                        is_string($width) ?: $width .= 'px';
+                        $style = ' style="width:' . $width . '"';
+                    }
 
                     $player = sprintf(
                         '<audio src="%s"%s%s>%s%s</audio>',
