@@ -33,7 +33,7 @@
 
 namespace Oui\Player {
 
-    if (class_exists('Oui\Player\Provider')) {
+    if (class_exists('Oui\Provider')) {
 
         class Audio extends Provider
         {
