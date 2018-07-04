@@ -31,7 +31,7 @@
  * @package Oui\Player
  */
 
-namespace Oui\Player {
+namespace Oui {
 
     if (class_exists('Oui\Provider')) {
 
