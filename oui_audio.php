@@ -147,16 +147,14 @@ namespace Oui {
                         $sources[] = $play;
                     } else {
                         if ($type === 'id') {
-                            $file = fileDownloadFetchInfo(
-                                'id = '.intval($play).' and created <= '.now('created')
-                            );
+                            $where = 'id = '.intval($play).' and created <= '.now('created');
                         } elseif ($type === 'filename') {
-                            $file = fileDownloadFetchInfo(
-                                "filename = '".doSlash($play)."' and created <= ".now('created')
-                            );
+                            $where = "filename = '".doSlash($play)."' and created <= ".now('created');
                         }
 
-                        $sources[] = filedownloadurl($file['id'], $file['filename']);
+                        $file = fileDownloadFetchInfo($where);
+
+                        $file ? $sources[] = filedownloadurl($file['id'], $file['filename']) : '';
                     }
                 }
 
