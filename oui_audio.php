@@ -58,9 +58,7 @@ namespace Oui {
             protected static $src = '';
             protected static $glue = ' ';
             protected static $dims = array(
-                'width'     => array(
-                    'default' => '',
-                ),
+                'width' => '',
             );
             protected static $params = array(
                 'autoplay' => array(
