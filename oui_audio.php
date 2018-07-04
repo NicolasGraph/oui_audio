@@ -157,7 +157,7 @@ namespace Oui {
                         if ($file) {
                             $sources[] = filedownloadurl($file['id'], $file['filename']);
                         } else {
-                            trigger_error('Unknown file to play');
+                            trigger_error('Unknown file to play:"' . $play . '"');
                         }
                     }
                 }
