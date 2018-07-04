@@ -214,13 +214,3 @@ namespace Oui {
         }
     }
 }
-
-namespace {
-    function oui_audio($atts) {
-        return oui_player(array_merge(array('provider' => 'audio'), $atts));
-    }
-
-    function oui_if_audio($atts, $thing) {
-        return oui_if_player(array_merge(array('provider' => 'audio'), $atts), $thing);
-    }
-}
