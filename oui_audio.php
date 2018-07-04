@@ -107,7 +107,7 @@ namespace Oui {
                 $params = array();
 
                 foreach (self::getParams() as $param => $infos) {
-                    $pref = get_pref(strtolower(str_replace('\\', '_', get_class($this))) . '_' . $param);
+                    $pref = get_pref(Player::getPlugin() . '_' . self::getProvider() . '_' . $param);
                     $default = $infos['default'];
                     $value = isset($this->config[$param]) ? $this->config[$param] : '';
 
