@@ -154,7 +154,11 @@ namespace Oui {
 
                         $file = fileDownloadFetchInfo($where);
 
-                        $file ? $sources[] = filedownloadurl($file['id'], $file['filename']) : '';
+                        if ($file) {
+                            $sources[] = filedownloadurl($file['id'], $file['filename']);
+                        } else {
+                            trigger_error('Unknown file to play');
+                        }
                     }
                 }
 
