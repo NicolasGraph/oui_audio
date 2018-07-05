@@ -169,7 +169,7 @@ This is free software, and you are welcome to redistribute it "under certain con
 
 h3. Changelog
 
-* *oui_audio v1.0.0-BETA3* (2018-07-04)
+* *oui_audio v1.0.0-BETA3* (2018-07-05)
 ** Added: MIME types managements;
 ** added: player width management;
 ** added: @.aac@ and @.flac@ support;
