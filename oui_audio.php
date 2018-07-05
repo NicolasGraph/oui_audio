@@ -117,7 +117,11 @@ namespace Oui {
                             $params[] = $param . '="' . $pref . '"';
                         }
                     } elseif ($value !== '') {
-                        if ($infos['valid'] === array('0', '1')) {
+                        $validArray = is_array($infos['valid']) ? $infos['valid'] : '';
+
+                        if ($validArray && !in_array($value, $validArray)) {
+                            trigger_error('Unknown attribute value for "' . $param . '". Valid values are: "' . implode('", "', $validArray) . '".');
+                        } if ($infos['valid'] === array('0', '1')) {
                             $params[] = $param;
                         } else {
                             $params[] = $param . '="' . $value . '"';
