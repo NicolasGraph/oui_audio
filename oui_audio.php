@@ -37,6 +37,7 @@ namespace Oui {
 
         class Audio extends Provider
         {
+            protected static $mediaType = 'audio';
             protected static $patterns = array(
                 'filename' => array(
                     'scheme' => '#^((?!(http|https)://(www\.)?)\S+\.(mp3|ogg|oga|wav|aac|flac))$#i',
