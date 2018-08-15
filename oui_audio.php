@@ -40,7 +40,11 @@ if (class_exists('Oui\Provider')) {
         protected static $srcBase = '';
         protected static $srcGlue = ' ';
         protected static $iniDims = array(
-            'width' => '',
+            'width'      => '',
+            'responsive' => array(
+                'default' => 'false',
+                'valid'   => array('true', 'false'),
+            ),
         );
         protected static $iniParams = array(
             'autoplay' => array(

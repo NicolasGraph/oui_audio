@@ -4,6 +4,7 @@ oui_player_provider_audio => Audio
 oui_player_audio => Audio player
 oui_player_audio_prefs => Display the Audio player prefs
 oui_player_audio_width => Largeur du lecteur
+oui_player_audio_responsive => Rendre les lecteurs adaptatifs (= width 100%)
 oui_player_audio_autoplay => Audio
 oui_player_audio_controls => Afficher les commandes
 oui_player_audio_loop => Lire en boucle
