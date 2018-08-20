@@ -33,9 +33,9 @@
 
 namespace Oui;
 
-if (class_exists('Oui\Provider')) {
+if (class_exists('Oui\Player\Provider')) {
 
-    class Audio extends Provider
+    class Audio extends Player\Provider
     {
         protected static $srcBase = '';
         protected static $srcGlue = ' ';
