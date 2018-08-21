@@ -35,7 +35,7 @@ namespace Oui;
 
 if (class_exists('Oui\Player\Provider')) {
 
-    class Audio extends Player\Provider
+    class Audio extends Player\Embed
     {
         protected static $srcBase = '';
         protected static $srcGlue = ' ';
