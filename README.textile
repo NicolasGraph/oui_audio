@@ -167,15 +167,15 @@ h3. License
 
 This plugin is distributed under "GPL v2.0":https://www.gnu.org/licenses/gpl-2.0.txt.
 
-oui_audio version 1.0.0-BETA4, Copyright (C) 2018 Nicolas Morand
+oui_audio version 1.0.0, Copyright (C) 2018 Nicolas Morand
 This Textpattern plugin comes with ABSOLUTELY "NO WARRANTY":https://www.gnu.org/licenses/gpl-2.0.html#section11.
 This is free software, and you are welcome to redistribute it "under certain conditions":https://www.gnu.org/licenses/gpl-2.0.html#SEC3.
 
 h3. Changelog
 
-* *oui_audio v1.0.0-BETA4* (2018-08-15)
+* *oui_audio v1.0.0* (2018-08-22)
 ** Added: MIME types managements;
 ** added: player width management;
 ** added: @.aac@ and @.flac@ support;
 ** changed: does not try to play non existing files (triggers errors).
-* *oui_player v1.3.0* (2017-05-24)
+* *oui_player v1.3.1* (2017-07-13)
